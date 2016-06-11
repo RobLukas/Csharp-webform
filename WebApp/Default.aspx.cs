@@ -14,14 +14,12 @@ namespace WebApp
 
         }
 
-        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
         {
-        }
+            if (true)
+            {
 
-        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton1.Enabled = false;
-
+            }
         }
     }
 }
